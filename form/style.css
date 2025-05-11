@@ -1,0 +1,64 @@
+.box1 {
+    width: 300px;
+    height: 100px;
+    color: black;
+    font-size: x-large;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+.hide {
+    display: none;
+}
+
+#box {
+    
+    margin: auto;
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(135, 128, 128);
+}
+
+#inpt1 {
+    height: 30px;
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+.para {
+
+    font-size: 20px;
+    margin-left: 10px;
+}
+.para1 {
+    padding-top: 10px;
+}
+#inpt2 {
+    height: 30px;
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+#inpt3 {
+    height: 30px;
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#buttn {
+    height: 40px;
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgb(43, 46, 226);
+    color: white;
+    font-size: x-large;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
