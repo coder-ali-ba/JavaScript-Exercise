@@ -499,3 +499,173 @@ newPerson.name = "Bob";
 person.age=15;
 console.log(person);
 console.log(newPerson);
+
+
+
+
+var sub1 =prompt("Enter Number in Physics")
+var sub2 =prompt("Enter Number in Chemistry")
+var sub3 =prompt("Enter Number in Biology")
+var sub4 =prompt("Enter Number in Maths")
+var sub5 =prompt("Enter Number in English")
+var total = parseInt(sub1) + parseInt(sub2) + parseInt(sub3) + parseInt(sub4) + parseInt(sub5)
+
+var percent = (total/500) * 100;
+
+
+if (percent >=90){
+    alert("Congratulations You Got A grade")
+} else if(percent>=80 && percent <=89 ){
+    alert("Congratulations You GOt B Grade")
+} else if(percent>=70 && percent <=79){
+    alert("Congratulations You Got C Grage")
+ } else if(percent>=60 && percent <=69){
+    alert("Congratulations You Got D Grage")
+} else{
+    alert("Sory You Are Failed  You Got C Grage")
+}
+
+
+
+
+
+function  largeNumber(num1 , num2){
+    if (num1 > num2){
+        console.log(num1);
+
+    } else{
+        console.log(num2)
+    }
+}
+
+largeNumber(3, 6)
+
+
+
+
+var evenOdd = prompt("Enter Your Number");
+
+function checkNumber(){
+if (evenOdd%2==0){
+  alert("The Number You Entered Is Even")
+} else{
+alert("The Number You Entered Is Odd")
+}
+}
+
+checkNumber()
+
+
+
+
+function evensFrom1to30(){
+    for(i=1; i<=30; i++){
+        if(i%2==0){
+            console.log(i);
+        }
+    }
+}
+evensFrom1to30()
+
+
+
+
+
+var userNumber1 =prompt("Enter Your First Number")
+var userNumber2 =prompt("Enter Your Second Number")
+
+
+var mul =userNumber1 * userNumber2;
+var add =parseInt(userNumber1) + parseInt(userNumber2);
+var minus =userNumber1 - userNumber2;
+var divide =userNumber1/userNumber2;
+
+function arthMatics(){
+alert("Multiplication Of Numbers Is =" + mul )
+alert("Addition Of Numbers Is =" + add)
+alert("Difference Of The Numbers is =" + minus)
+alert("Divident Of The Numbers Is =" + divide)
+}
+
+arthMatics()
+
+
+
+
+
+var age =prompt("Enter Your Age");
+
+function checkAge(){
+    if(age<=12){
+        console.log("You Are a Child");
+    } else if(age>=13 && age<=19){
+        console.log("You Are A Teenager");
+    } else if(age>=20 && age<=64){
+        console.log("You Are An Adult");
+
+    } else {
+        console.log("Your Are A Senior");
+    }
+
+}
+
+ checkAge()
+
+
+
+
+var check1 =prompt("Enter First Number")
+var check2 =prompt("Enter Second Number")
+
+function compareNumbers(){
+    if(check1>check2){
+        console.log("First Number Is Greater");
+    } else if(check1<check2) {
+        console.log("First Number Is Less Then Second Number");
+    } else{
+        console.log("Both Numbers Are Equal");
+    }
+}
+compareNumbers()
+
+
+
+
+
+var temprature =prompt("Enter Temperature In Celcius")
+var fehren=(temprature*9)/5 + 32;
+function changeScale(){
+     alert(fehren + "F")
+     if (fehren>=100){
+        alert("Temperature Is Too High")
+     }
+} 
+
+changeScale()
+
+
+
+
+
+
+var n =prompt("Enter Your Number");
+
+function sums(){
+    for(i=1; i>=n; i++){
+        var plusValue =n + i;
+        console.log(plusValue);
+    }
+}
+sums()
+
+
+
+
+
+var tab =prompt("enter your number");
+
+function table(){
+    for(i=1; i<=10; i++)
+    console.log(tab*i);
+}
+table()
